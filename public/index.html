@@ -39,20 +39,20 @@
               <li>Как собрать продуктовую логику без хаоса и лишних запусков</li>
             </ul>
 
+            <a class="primary-button" href="#signup-modal">Смотреть видео</a>
+
             <div class="bonus-line">
               <span>+</span>
               <strong>Бонусы:</strong> два практических материала для подготовки продукта
             </div>
 
             <div class="media-row" aria-label="Видео и бонусы">
-              <a class="video-card" href="#" aria-label="Смотреть видео">
+              <a class="video-card" href="#signup-modal" aria-label="Смотреть видео">
                 <img src="./video.png" alt="Превью видео эфира" />
                 <span class="play-button" aria-hidden="true"></span>
               </a>
               <img class="bonus-mockups" src="./bonuses.png" alt="Два бонусных материала" />
             </div>
-
-            <a class="primary-button" href="#" data-widget-trigger>Смотреть видео</a>
           </div>
 
           <aside class="expert" aria-label="Эксперт эфира">
@@ -73,13 +73,23 @@
       </section>
     </main>
 
+    <div class="modal" id="signup-modal" aria-label="Форма доступа к видео">
+      <a class="modal__backdrop" href="#" aria-label="Закрыть"></a>
+      <div class="modal__panel" role="dialog" aria-modal="true">
+        <a class="modal__close" href="#" aria-label="Закрыть">×</a>
+        <div class="modal__widget">
+          <script id="23aacfc6117aff732c34359d814e2a6df0a1c192" src="https://agkedu.getcourse.ru/pl/lite/widget/script?id=1603329"></script>
+        </div>
+      </div>
+    </div>
+
     <footer class="footer">
       <div class="container footer__top">
         <a class="footer__logo" href="/" aria-label="Академия методологии">
           <img src="./logo.png" alt="" />
         </a>
         <nav class="socials" aria-label="Контакты">
-          <a href="#" aria-label="Записаться">
+          <a href="#signup-modal" aria-label="Записаться">
             <span>↗</span>
           </a>
           <a href="https://t.me/agk_edu" aria-label="Telegram">
@@ -93,19 +103,18 @@
           </a>
         </nav>
         <a class="footer__email" href="mailto:info@agkedu.com">info@agkedu.com</a>
-        <a class="support-button" href="https://t.me/gkalex_academy">Написать в тех.поддержку</a>
+        <a class="support-button" href="https://agkedu.getcourse.ru/tg_subscribe">Написать в тех.поддержку</a>
       </div>
 
       <div class="container footer__bottom">
         <div>
           <p>© 2026. Все права защищены.</p>
           <a href="https://agkedu.getcourse.ru/personaldata">Политика конфиденциальности</a>
-          <a href="https://agkedu.getcourse.ru/oferta_all">Договор оферты</a>
         </div>
         <div class="requisites">
           <p>Индивидуальный предприниматель Горева-Куртышева Александра Александровна</p>
           <p>ИНН: 246212538610</p>
-          <a href="https://t.me/ulyanavidyakina">Разработка сайта</a>
+          <a href="https://t.me/lp_sergey">Разработка сайтов</a>
         </div>
       </div>
     </footer>
